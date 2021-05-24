@@ -4,9 +4,9 @@ import errors from './errors_reducer';
 import tweets from './tweets_reducer';
 
 const RootReducer = combineReducers({
-    session,
-    errors,
-    tweets
+  errors,
+  session,
+  tweets
 });
 
 export default RootReducer;
