@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "server": "nodemon app.js",
-    "debug": "node --inspect app.js",
+    "debug": "nodemon --inspect app.js",
     "frontend-install": "npm install --prefix frontend",
     "frontend": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
@@ -36,6 +36,7 @@
     "validator": "^10.9.0"
   },
   "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.2.0",
     "nodemon": "^1.18.7"
   }
 }

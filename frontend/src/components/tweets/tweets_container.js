@@ -3,7 +3,6 @@ import { fetchTweets } from '../../actions/tweet_actions';
 import Tweets from './tweets';
 
 const mapStateToProps = (state) => {
-  debugger
   return {
     tweets: Object.values(state.tweets.all)
   };
