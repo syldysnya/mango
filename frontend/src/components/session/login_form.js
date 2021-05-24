@@ -20,7 +20,7 @@ class LoginForm extends React.Component {
             this.props.history.push('/tweets');
         }
 
-        this.setState({ errors: nextProps.errors })
+        this.setState({errors: nextProps.errors})
     }
 
     update(field) {
