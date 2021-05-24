@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch } from 'react-router';
+import { Switch } from 'react-router-dom';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
 import NavBarContainer from './nav/navbar_container';
